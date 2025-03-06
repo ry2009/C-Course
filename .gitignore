@@ -79,3 +79,8 @@ Week3/
 *_solution.*
 *_answers.*
 *_key.*
+
+# Make sure these files are accessible to students
+!Resources/Slides/sorting_algorithm_comparison.png
+!Resources/Slides/sorting_algorithm_comparison.pdf
+!Resources/Code_Examples/sorting_algorithm_comparison_graph.py
