@@ -17,22 +17,17 @@
 *.mp4 binary
 *.pdf binary
 
-
-# Instructor-only files (will be excluded from archives)
+# Instructor-only materials - exclude from archives
 Resources/Slides/manim_transcript.md export-ignore
 Resources/Slides/Week1_Course_Plan.md export-ignore
 Resources/Slides/Week1_Presentation.md export-ignore
 Resources/Slides/course_plan.md export-ignore
 Resources/Slides/presentation_transcript.md export-ignore
 Resources/Code_Examples/sorting_algorithms_manim.py export-ignore
-Week1/sorting_algorithms_manim.py export-ignore
 Week2/** export-ignore
 Week3/** export-ignore
 *_solution.* export-ignore
 *_answers.* export-ignore
 *_key.* export-ignore
 
-# Make sure these files are accessible to students
-Resources/Slides/sorting_algorithm_comparison.png -export-ignore
-Resources/Slides/sorting_algorithm_comparison.pdf -export-ignore
-Resources/Code_Examples/sorting_algorithm_comparison_graph.py -export-ignore
+
