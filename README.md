@@ -1,4 +1,4 @@
-# C++ Course: Sorting Algorithms in Quantitative Finance
+# C++ Course: Algorithms in Quantitative Finance
 
 Welcome to the C++ course focused on high-performance programming for quantitative finance. This repository contains all the materials, code examples, and exercises for the course.
 

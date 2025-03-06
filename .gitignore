@@ -67,4 +67,15 @@ order_book_sorting
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db 
+Thumbs.db
+
+
+# Instructor-only materials
+Resources/Slides/manim_transcript.md
+Resources/Slides/Week1_Course_Plan.md
+Resources/Code_Examples/sorting_algorithms_manim.py
+Week2/
+Week3/
+*_solution.*
+*_answers.*
+*_key.*

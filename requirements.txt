@@ -6,7 +6,7 @@ matplotlib==3.7.1
 tqdm==4.65.0
 pycairo==1.23.0
 pygments==2.15.1
-networkx==3.1
+networkx>=2.5,<3.0
 pydub==0.25.1
 rich==13.3.5
 screeninfo==0.8.1
