@@ -21,7 +21,11 @@
 # Instructor-only files (will be excluded from archives)
 Resources/Slides/manim_transcript.md export-ignore
 Resources/Slides/Week1_Course_Plan.md export-ignore
+Resources/Slides/Week1_Presentation.md export-ignore
+Resources/Slides/course_plan.md export-ignore
+Resources/Slides/presentation_transcript.md export-ignore
 Resources/Code_Examples/sorting_algorithms_manim.py export-ignore
+Week1/sorting_algorithms_manim.py export-ignore
 Week2/** export-ignore
 Week3/** export-ignore
 *_solution.* export-ignore

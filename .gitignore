@@ -73,7 +73,11 @@ Thumbs.db
 # Instructor-only materials
 Resources/Slides/manim_transcript.md
 Resources/Slides/Week1_Course_Plan.md
+Resources/Slides/Week1_Presentation.md
+Resources/Slides/course_plan.md
+Resources/Slides/presentation_transcript.md
 Resources/Code_Examples/sorting_algorithms_manim.py
+Week1/sorting_algorithms_manim.py
 Week2/
 Week3/
 *_solution.*
