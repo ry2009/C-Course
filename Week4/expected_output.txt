@@ -1,0 +1,126 @@
+===== Trading System Demonstration =====
+
+Step 1: Processing Initial Market Data
+
+Order Book for AAPL:
+        BID QTY      BID PRICE |       ASK PRICE        ASK QTY
+------------------------------------------------------------
+            100            150 |          150.01            100
+            150         149.99 |          150.02            130
+            200         149.98 |          150.03            160
+            250         149.97 |          150.04            190
+            300         149.96 |          150.05            220
+
+Risk Metrics for AAPL:
+Position Risk: 0.0
+Current Position: 0 (Max: 1000)
+
+Strategy Metrics for AAPL:
+Optimal Order Size: 100
+Current Spread: 0.01
+
+Step 2: Processing Limit Orders
+
+Order Book for AAPL:
+        BID QTY      BID PRICE |       ASK PRICE        ASK QTY
+------------------------------------------------------------
+            100            150 |          150.01            100
+            150         149.99 |          150.02            130
+            200         149.98 |          150.03            160
+            100         149.99 |          150.01            100
+            250         149.97 |          150.04            190
+
+Risk Metrics for AAPL:
+Position Risk: 0.0
+Current Position: 0 (Max: 1000)
+
+Step 3: Processing Market Order
+
+Order Book for AAPL:
+        BID QTY      BID PRICE |       ASK PRICE        ASK QTY
+------------------------------------------------------------
+            100            150 |          150.02            50
+            150         149.99 |          150.03            160
+            200         149.98 |          150.03            160
+            100         149.99 |          150.01            100
+            250         149.97 |          150.04            190
+
+Risk Metrics for AAPL:
+Position Risk: 0.05
+Current Position: 50 (Max: 1000)
+
+Step 4: Simulating Market Changes
+
+Update 1 - New Price: 150.01
+Order Book for AAPL:
+        BID QTY      BID PRICE |       ASK PRICE        ASK QTY
+------------------------------------------------------------
+            100        150.005 |         150.015            100
+            150        149.995 |         150.025            130
+            200        149.985 |         150.035            160
+            100        149.995 |         150.015            100
+            250        149.975 |         150.045            190
+
+Update 2 - New Price: 150.02
+Order Book for AAPL:
+        BID QTY      BID PRICE |       ASK PRICE        ASK QTY
+------------------------------------------------------------
+            100         150.01 |          150.02            100
+            150            150 |          150.03            130
+            200         149.99 |          150.04            160
+            100            150 |          150.02            100
+            250         149.98 |          150.05            190
+
+Update 3 - New Price: 150.03
+Order Book for AAPL:
+        BID QTY      BID PRICE |       ASK PRICE        ASK QTY
+------------------------------------------------------------
+            100         150.02 |          150.03            100
+            150         150.01 |          150.04            130
+            200            150 |          150.05            160
+            100         150.01 |          150.03            100
+            250         149.99 |          150.06            190
+
+Update 4 - New Price: 150.04
+Order Book for AAPL:
+        BID QTY      BID PRICE |       ASK PRICE        ASK QTY
+------------------------------------------------------------
+            100         150.03 |          150.04            100
+            150         150.02 |          150.05            130
+            200         150.01 |          150.06            160
+            100         150.02 |          150.04            100
+            250            150 |          150.07            190
+
+Update 5 - New Price: 150.05
+Order Book for AAPL:
+        BID QTY      BID PRICE |       ASK PRICE        ASK QTY
+------------------------------------------------------------
+            100         150.04 |          150.05            100
+            150         150.03 |          150.06            130
+            200         150.02 |          150.07            160
+            100         150.03 |          150.05            100
+            250         150.01 |          150.08            190
+
+Step 5: Generating Strategy Orders
+
+Order Book for AAPL:
+        BID QTY      BID PRICE |       ASK PRICE        ASK QTY
+------------------------------------------------------------
+            100         150.04 |          150.05            100
+            150         150.03 |          150.06            130
+            200         150.02 |          150.07            160
+            100         150.03 |          150.05            100
+            250         150.01 |          150.08            190
+
+Risk Metrics for AAPL:
+Position Risk: 0.1
+Current Position: 100 (Max: 1000)
+
+Strategy Metrics for AAPL:
+Optimal Order Size: 75
+Current Spread: 0.01
+
+Step 6: System Health Check
+Order Book Processor: Healthy
+Risk Calculator: Healthy
+Trading Strategy: Healthy 
