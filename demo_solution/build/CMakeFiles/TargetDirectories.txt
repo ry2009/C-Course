@@ -1,0 +1,9 @@
+/Users/ryanmathieu/c++Course/Week3/demo_solution/build/CMakeFiles/trading_lib.dir
+/Users/ryanmathieu/c++Course/Week3/demo_solution/build/CMakeFiles/integrated_system_test.dir
+/Users/ryanmathieu/c++Course/Week3/demo_solution/build/CMakeFiles/test.dir
+/Users/ryanmathieu/c++Course/Week3/demo_solution/build/CMakeFiles/edit_cache.dir
+/Users/ryanmathieu/c++Course/Week3/demo_solution/build/CMakeFiles/rebuild_cache.dir
+/Users/ryanmathieu/c++Course/Week3/demo_solution/build/CMakeFiles/list_install_components.dir
+/Users/ryanmathieu/c++Course/Week3/demo_solution/build/CMakeFiles/install.dir
+/Users/ryanmathieu/c++Course/Week3/demo_solution/build/CMakeFiles/install/local.dir
+/Users/ryanmathieu/c++Course/Week3/demo_solution/build/CMakeFiles/install/strip.dir

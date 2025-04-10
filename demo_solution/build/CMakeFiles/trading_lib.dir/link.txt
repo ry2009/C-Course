@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc lib/libtrading_lib.a CMakeFiles/trading_lib.dir/src/market_data_handler.cpp.o CMakeFiles/trading_lib.dir/src/thread_pool.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib lib/libtrading_lib.a
